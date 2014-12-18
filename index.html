@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Angular Boilerplate</title>
+    <meta charset="utf-8">
+    <meta name="fragment" content="!">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script>document.write('<base href="' + document.location + '" />');</script>
+</head>
+<body ng-app="angularStructure">
+	
+	<navbar></navbar>
+
+	<div ng-view autoscroll="true"></div>
+
+	<!-- build:js vendor.js -->
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+	<!-- endbuild -->
+
+	<!-- build:js app.js -->
+	
+		<script src="app.js"></script>
+		
+		<!-- Components -->
+		<script src="components/navbar/navbar-controller.js"></script>
+		<script src="components/navbar/navbar-directive.js"></script>
+		<script src="components/cardmovie/cardmovie-controller.js"></script>
+		<script src="components/cardmovie/cardmovie-directive.js"></script>
+		
+		<!-- Sections -->
+		<script src="sections/home/home-controller.js"></script>
+
+		<!-- Shared -->
+			
+
+	<!-- endbuild -->
+</body>
+</html>
