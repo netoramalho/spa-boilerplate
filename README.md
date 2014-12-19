@@ -29,10 +29,11 @@ app/
 ---- index.html
 ---- app.js
 
+---- bower_components/
+
 ---- assets/
 -------- img/
 -------- fonts/
--------- libs/
 -------- css/
 ------------ main.styl
 ------------ components/

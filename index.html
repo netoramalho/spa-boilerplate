@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <script>document.write('<base href="' + document.location + '" />');</script>
 </head>
-<body ng-app="angularStructure">
+<body ng-app="app">
 	
-	<navbar></navbar>
+	<app-navbar></app-navbar>
 
 	<div ng-view autoscroll="true"></div>
 
@@ -23,15 +23,16 @@
 	<!-- build:js app.js -->
 	
 		<script src="app.js"></script>
+		<script src="app.routes.js"></script>
 		
 		<!-- Components -->
-		<script src="components/navbar/navbar-controller.js"></script>
-		<script src="components/navbar/navbar-directive.js"></script>
-		<script src="components/cardmovie/cardmovie-controller.js"></script>
-		<script src="components/cardmovie/cardmovie-directive.js"></script>
+		<script src="components/navbar/navbar.controller.js"></script>
+		<script src="components/navbar/navbar.directive.js"></script>
+		<script src="components/cardmovie/cardmovie.controller.js"></script>
+		<script src="components/cardmovie/cardmovie.directive.js"></script>
 		
 		<!-- Sections -->
-		<script src="sections/home/home-controller.js"></script>
+		<script src="sections/home/home.controller.js"></script>
 
 		<!-- Shared -->
 			
