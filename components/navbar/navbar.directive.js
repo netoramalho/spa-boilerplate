@@ -9,7 +9,7 @@
         var directive = {
             restrict: 'E',
             templateUrl: 'components/navbar/navbar.html',
-            controller: 'NavbarCtrl',
+            controller: 'ComponentNavbar',
             controllerAs: 'vm'
         };
         return directive;

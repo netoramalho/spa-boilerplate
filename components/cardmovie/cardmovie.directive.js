@@ -9,7 +9,7 @@
         var directive = {
             restrict: 'E',
             templateUrl: 'components/cardmovie/cardmovie.html',
-            controller: 'CardmovieCtrl',
+            controller: 'ComponentCardmovie',
             controllerAs: 'vm',
             scope: {
                 movies: "="

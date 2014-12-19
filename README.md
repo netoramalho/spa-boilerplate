@@ -28,6 +28,7 @@ app/
 
 ---- index.html
 ---- app.js
+---- app.routes.js
 
 ---- bower_components/
 

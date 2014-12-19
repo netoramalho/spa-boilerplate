@@ -13,7 +13,7 @@
         $routeProvider
             .when('/', {
                 templateUrl: 'sections/home/home.html',
-                controller: 'SectionHomeCtrl',
+                controller: 'SectionHome',
                 controllerAs: 'vm'
             });
     }

@@ -3,9 +3,9 @@
 
     angular
         .module('app')
-        .controller('NavbarCtrl', NavbarCtrl);
+        .controller('ComponentNavbar', ComponentNavbar);
 
-    function NavbarCtrl(){
+    function ComponentNavbar(){
         var vm = this;
         vm.toogleMobileMenu = toogleMobileMenu;
         

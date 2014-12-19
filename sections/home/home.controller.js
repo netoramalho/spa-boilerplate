@@ -3,9 +3,9 @@
 
     angular
         .module('app')
-        .controller('SectionHomeCtrl', SectionHomeCtrl);
+        .controller('SectionHome', SectionHome);
 
-    function SectionHomeCtrl(){
+    function SectionHome(){
         var vm = this;
         vm.arrayMovies = [
             {name: 'The Godfather', cover: 'http://image.tmdb.org/t/p/original/xUU1melxrkb7IXl1F7PXrtZAWWl.jpg'},

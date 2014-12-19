@@ -3,7 +3,7 @@
 
     angular
         .module('app')
-        .controller('CardmovieCtrl', CardmovieCtrl);
+        .controller('ComponentCardmovie', ComponentCardmovie);
 
-    function CardmovieCtrl() {}
+    function ComponentCardmovie() {}
 })();
